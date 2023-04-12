@@ -1,6 +1,6 @@
 [package]
 name = "openssl-src"
-version = "300.0.12+3.0.8"
+version = "300.1.0+3.1.0"
 authors = ["Alex Crichton <alex@alexcrichton.com>"]
 license = "MIT/Apache-2.0"
 readme = "README.md"
@@ -17,6 +17,10 @@ exclude = [
   'openssl/test/recipes/*',
   'openssl/gost-engine/*',
   'openssl/demos/*',
+  'openssl/tlslite-ng/*',
+  'openssl/tlsfuzzer/*',
+  'openssl/python-ecdsa/*',
+  'openssl/oqs-provider/*',
 ]
 
 [features]
